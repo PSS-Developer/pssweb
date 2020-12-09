@@ -1,0 +1,40 @@
+{
+  "name": "argon-design-system",
+  "description": "Bootstrap 4 Argon Design System",
+  "version": "1.2.2",
+  "homepage": "http://creative-tim.com/product/argon-design-system",
+  "author": "Creative Tim",
+  "license": "Creative Tim License <www.creative-tim.com/license>",
+  "devDependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-install": "^1.1.0",
+    "gulp-open": "^3.0.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-install": "^1.1.0",
+    "gulp-open": "^3.0.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5"
+  },
+  "scripts": {
+    "start": "node .",
+    "dev": "node .",
+    "serve": "node .",
+    "run": "node."
+  }
+}
