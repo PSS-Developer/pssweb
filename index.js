@@ -26,8 +26,8 @@ app.get('/about', (req, res) => {
 })            
 
 app.get('/join', (req, res) => {
-  // res.redirect('/')
-  res.send('<!DOCTYPE html><html lang="ko"><head><meta charset="UTF-8" /><meta name="viewport" content="minimum-scale=1,initial-scale=1,width=device-width" /><script src="/static/js/pref.fe14d1f0.chunk.js"></script></head><body></body></html>');
+  res.redirect('https://discord.gg/qBbvk2vzPM')
+  // res.send('<!DOCTYPE html><html lang="ko"><head><meta charset="UTF-8" /><meta name="viewport" content="minimum-scale=1,initial-scale=1,width=device-width" /><script src="/static/js/pref.fe14d1f0.chunk.js"></script></head><body></body></html>');
 })         
 
 app.get('/LICENSE', (req, res) => {
