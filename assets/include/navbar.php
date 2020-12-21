@@ -23,6 +23,12 @@
           </div>
         </div>
         <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
+        <li class="nav-item">
+            <a class="nav-link" href="index.php" role="button">
+              <i class="ni ni-collection d-lg-none"></i>
+              <span class="nav-link-inner--text">Home</span>
+            </a>
+          </li>
           <!-- <li class="nav-item">
             <a class="nav-link" href="about.php" role="button">
               <i class="ni ni-collection d-lg-none"></i>
@@ -38,7 +44,7 @@
           <li class="nav-item">
             <a class="nav-link" href="/board" role="button">
               <i class="ni ni-collection d-lg-none"></i>
-              <span class="nav-link-inner--text">Join Server</span>
+              <span class="nav-link-inner--text">Board</span>
             </a>
           </li>
         </ul>
