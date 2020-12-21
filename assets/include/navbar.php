@@ -36,6 +36,12 @@
             </a>
           </li>
           <li class="nav-item">
+            <a class="nav-link" href="http://blog.pssweb.ml" role="button">
+              <i class="ni ni-collection d-lg-none"></i>
+              <span class="nav-link-inner--text">Blog</span>
+            </a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="join.php" role="button">
               <i class="ni ni-collection d-lg-none"></i>
               <span class="nav-link-inner--text">Join Server</span>
