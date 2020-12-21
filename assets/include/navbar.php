@@ -1,7 +1,7 @@
 <nav id="navbar-main" class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light py-2">
     <div class="container">
       <a class="navbar-brand mr-lg-5" href="/">
-        <img src="/assets/img/brand/white.PNG">
+        <img src="assets/img/brand/white.PNG">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -11,7 +11,7 @@
           <div class="row">
             <div class="col-6 collapse-brand">
               <a href="/">
-                <img src="/assets/img/brand/blue.PNG">
+                <img src="assets/img/brand/blue.PNG">
               </a>
             </div>
             <div class="col-6 collapse-close">
@@ -24,13 +24,19 @@
         </div>
         <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
           <!-- <li class="nav-item">
-            <a class="nav-link" href="/about" role="button">
+            <a class="nav-link" href="about.php" role="button">
               <i class="ni ni-collection d-lg-none"></i>
               <span class="nav-link-inner--text">About</span>
             </a>
           </li> -->
           <li class="nav-item">
-            <a class="nav-link" href="/join" role="button">
+            <a class="nav-link" href="join.php" role="button">
+              <i class="ni ni-collection d-lg-none"></i>
+              <span class="nav-link-inner--text">Join Server</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/board" role="button">
               <i class="ni ni-collection d-lg-none"></i>
               <span class="nav-link-inner--text">Join Server</span>
             </a>
