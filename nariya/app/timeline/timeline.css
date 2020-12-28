@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+.timeline {	list-style: none; margin: 0px auto; padding:0px 0px 30px; overflow: hidden; position: relative; max-width: 1200px; }
+.timeline::after { border-radius: 2px; left: 50%; top: 0px; width: 2px; height: 100%; margin-left: -1px; display: block; position: absolute; content: ""; background-color: rgba(0, 0, 0, 0.1); }
+.timeline .timeline-row { padding-left: 50%; position: relative; z-index: 1;}
+.timeline .timeline-row.timeline-sep { margin-top:90px; }
+.timeline .timeline-row .timeline-label { left: 50%; top: -62px; width: 140px; height: 34px; line-height:34px; font-size:16px; text-align: center; overflow: hidden; margin-left: -70px; position: absolute; z-index: 100; border:1px solid #ddd; }
+.timeline .timeline-row .timeline-time { font-style:italic; top: 38px; text-align: right; right: 50%; line-height: 22px; font-size: 15px; margin-right: 40px; position: absolute; }
+.timeline .timeline-row .timeline-icon { background:#fff; border-radius: 50%; left: 50%; top: 25px; width: 50px; height: 50px; line-height:50px; text-align: center; overflow: hidden; margin-left: -25px; position: absolute; z-index: 100; border:0; }
+.timeline .timeline-row .timeline-icon img { border-radius: 50%; width:100%; height:100%; display:block; border:0;  border:1px solid #ddd; }
+.timeline .timeline-row .timeline-icon i { border-radius: 50%; width:100%; height:100%; line-height:48px; text-align:center; font-size: 26px; border:1px solid #ddd; }
+.timeline .timeline-row .timeline-content { background-color:#fff; margin-left: 40px; position: relative; border:1px solid #ddd; }
+.timeline .timeline-row .timeline-content::after { left: -41px; top: 48px; width: 40px; height: 2px; position: absolute; z-index: -1; content: ""; background-color: rgba(0, 0, 0, 0.1); }
+.timeline .timeline-row .timeline-desc { padding:3%; }
+.timeline .timeline-row .timeline-heading { font-weight:bold; margin-bottom:8px; }
+.timeline .timeline-row .timeline-explan { color:#747474; line-height:20px; margin-bottom:8px; }
+.timeline .timeline-row .timeline-info { line-height:22px; }
+.timeline .timeline-row .timeline-details i { margin-left:15px; }
+.timeline .timeline-row .apms-autowrap { margin-bottom:0px !important; max-width:100% !important; }
+
+.timeline :nth-child(2n+1).timeline-row { padding-right: 50%; padding-left: 0px; }
+.timeline :nth-child(2n+1).timeline-row .timeline-time { left: 50%; text-align: left; right: auto; margin-right: 0px; margin-left: 40px; }
+.timeline :nth-child(2n+1).timeline-row .timeline-content {	margin-right: 40px; margin-left: 0px; }
+.timeline :nth-child(2n+1).timeline-row .timeline-content::after { left: auto; right: -41px; }
+.animated.timeline .timeline-row .timeline-content { transition:0.8s; left: 20px; opacity: 0; -webkit-transition: all 0.8s; -moz-transition: all 0.8s; }
+.animated.timeline :nth-child(2n+1).timeline-row .timeline-content { left: -20px; }
+.animated.timeline .active.timeline-row .timeline-content {	left: 0px; opacity: 1; }
+.animated.timeline :nth-child(2n+1).active.timeline-row .timeline-content {	left: 0px; }
+
+.timeline-one.timeline { padding: 0px 10px; padding-right:0px; }
+.timeline-one.timeline::after { left: 28px; }
+.timeline-one.timeline .timeline-row { padding-left: 0px; margin-bottom: 20px; }
+.timeline-one.timeline .timeline-row .timeline-label { left:0; margin-left: -7px; }
+.timeline-one.timeline .timeline-row .timeline-time { margin: 0px 0px 6px 56px; top: 0px; text-align: left; right: auto; position: relative; }
+.timeline-one.timeline .timeline-row .timeline-icon { left: -7px; top: 38px; margin-left: 0px; }
+.timeline-one.timeline .timeline-row .timeline-content {	margin-left: 56px; position: relative; }
+.timeline-one.timeline .timeline-row .timeline-content::after { left: -20px; top: 32px; right: auto; }
+.timeline-one.timeline :nth-child(2n+1).timeline-row { padding-right: 0px; }
+.timeline-one.timeline :nth-child(2n+1).timeline-row .timeline-time { margin: 0px 0px 6px 56px; left: auto; top: 0px; text-align: left; right: auto; position: relative; }
+.timeline-one.timeline :nth-child(2n+1).timeline-row .timeline-content {	margin-right: 0px; margin-left: 55px; }
+.timeline-one.timeline :nth-child(2n+1).timeline-row { padding-right: 0px; }
+.timeline-one.timeline :nth-child(2n+1).timeline-row .timeline-time { margin: 0px 0px 6px 56px; left: auto; top: 0px; text-align: left; right: auto; position: relative; }
+.timeline-one.timeline :nth-child(2n+1).timeline-row .timeline-content {	margin-right: 0px; margin-left: 55px; }
+.timeline-one.animated.timeline :nth-child(2n+1).timeline-row .timeline-content::after { left: -20px; }
+.timeline-one.animated.timeline :nth-child(2n+1).active.timeline-row .timeline-content {	left: 0px; }
+
+@media all and (max-width:1200px) {
+	.responsive .timeline {	padding: 0px 10px; }
+	.responsive .timeline::after { left: 28px; }
+	.responsive .timeline .timeline-row { padding-left: 0px; margin-bottom: 20px; }
+	.responsive .timeline .timeline-row .timeline-label { left:0; margin-left: -7px; }
+	.responsive .timeline .timeline-row .timeline-time { margin: 0px 0px 6px 56px; top: 0px; text-align: left; right: auto; position: relative; }
+	.responsive .timeline .timeline-row .timeline-icon { left: -7px; top: 38px; margin-left: 0px; }
+	.responsive .timeline .timeline-row .timeline-content {	margin-left: 56px; position: relative; }
+	.responsive .timeline .timeline-row .timeline-content::after { left: -20px; top: 32px; right: auto; }
+	.responsive .timeline :nth-child(2n+1).timeline-row { padding-right: 0px; }
+	.responsive .timeline :nth-child(2n+1).timeline-row .timeline-time { margin: 0px 0px 6px 56px; left: auto; top: 0px; text-align: left; right: auto; position: relative; }
+	.responsive .timeline :nth-child(2n+1).timeline-row .timeline-content {	margin-right: 0px; margin-left: 55px; }
+	.responsive .animated.timeline :nth-child(2n+1).timeline-row .timeline-content::after { left: -20px; }
+	.responsive .animated.timeline :nth-child(2n+1).active.timeline-row .timeline-content {	left: 0px; }
+}

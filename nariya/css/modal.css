@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+body { margin:0; padding:0; background:#fff; font-weight:normal !important; }
+
+#emo_icon { text-align:center; overflow:hidden;	padding:10px 5px; }
+#emo_icon .emo-img { width:48px; height:48px; margin:5px; cursor:pointer; border:1px solid #ddd; }
+#fa_icon a { color:#333; margin:5px; padding:6px 0; text-align:center; width:50px; line-height:24px; display:inline-block; text-decoration:none; }
+#fa_icon a:hover { color:#fff; text-decoration:none; background:rgb(50, 60, 70); border-radius:3px; }
+#fa_icon .list-group-item { font-size:15px; border-left:0 !important; border-right:0 !important; }
+#fa_icon .list-group-item b { font-size:16px; }
+
+#fsetup .table { min-width:800px; }
+#fsetup .table th,
+#fsetup .table td {	vertical-align:middle !important; }
+#fsetup .list-group-item { border-left:0 !important; border-right:0 !important; }
+@media (max-width:767px) { 
+	.responsive #fsetup .table { min-width:900px; }
+}

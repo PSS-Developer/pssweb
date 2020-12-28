@@ -1,0 +1,98 @@
+@charset "utf-8";
+
+/********************************************************
+■ PC 폰트
+********************************************************/
+
+/* 기준 폰트 */
+html {
+	font-size:12px;
+}
+
+/* 제목, 내용 등 기본 폰트 */
+body {
+	font-size:12px !important;
+	font-family:"dotum", sans-serif !important;
+	line-height:1.8;
+}
+
+/* 일반 기본 폰트 */
+.f-de {
+	font-size:12px !important;
+}
+
+/* 주석 등 */
+.f-xs {
+	font-size:11px !important;
+}
+
+/* 정보(조회, 날짜) 등 */
+.f-sm,
+.input-group-text {
+	font-size:12px !important;
+}
+
+/* 주메뉴, 텍스트 로고 등 */
+.f-md {
+	font-size:16px !important;
+	line-height:1.5 !important;
+	font-family: "Roboto", sans-serif !important;
+	padding-top:0.75rem;
+	padding-bottom:0.75rem;
+}
+
+/* 모바일 헤더(텍스트 로고) 등 */
+.f-mo {
+	font-size:16px !important;
+	line-height:1.5 !important;
+	font-family: "Roboto", sans-serif !important;
+	padding-top:0.75rem;
+	padding-bottom:0.75rem;
+}
+
+/* 일반 위젯 타이틀 등 : 15px */
+.f-lg {
+	font-size:15px !important;
+	line-height:1.7 !important;
+	font-family: "Roboto", sans-serif !important;
+	margin-bottom:0.25rem !important;
+}
+
+/* 특수 위젯 타이틀 등 : 18px */
+.f-xl {
+	font-size:18px !important;
+	line-height:1.5 !important;
+	font-family: "Roboto", sans-serif !important;
+	margin-bottom:0.25rem !important;
+}
+
+/* 위젯 목록 라인 */
+.na-list li {
+	line-height:2.0;
+}
+.is-line .na-list li {
+	line-height:1.9;
+	padding-bottom:0.25rem;
+	margin-bottom:0.25rem;
+	border-bottom:1px solid #efefef;
+}
+
+/* 리스트형 스킨 목록 간격 */
+.na-flex .py-2 {
+	padding-top:0.60rem !important;
+	padding-bottom:0.60rem !important;
+}
+
+@media all and (min-width:768px) {
+	.na-table .py-md-2 {
+		padding-top:0.60rem !important;
+		padding-bottom:0.60rem !important;
+	}
+}
+
+@media all and (max-width:767px) {
+	.na-table .py-2 {
+		padding-top:0.60rem !important;
+		padding-bottom:0.60rem !important;
+	}
+}

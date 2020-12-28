@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+/* 내용관리 */
+#ctt { }
+.ctt_admin {
+	text-align:right;
+}
+#ctt_con { }
+#ctt_con img{
+	max-width:100%;
+	height:auto;
+}
+.ctt_img {
+	text-align:center;
+}

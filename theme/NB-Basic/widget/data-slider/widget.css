@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+/* 네비 버튼 */
+.basic-banner .owl-nav {
+	position:absolute;
+	right:0;
+	top:-3.75rem;
+	z-index:1;
+}
+.basic-banner .owl-nav button {
+	width:2.5rem;
+	padding:0 !important;
+	margin:0 !important;
+	border:1px solid #ddd !important;
+	background:#fff !important;
+	color:#ccc !important;
+}
+.basic-banner .owl-nav button.owl-prev {
+	border-right:0 !important;
+}

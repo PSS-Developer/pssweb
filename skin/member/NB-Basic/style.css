@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+.register .list-group-item {
+	padding-left:0;
+	padding-right:0;
+	border-left:0;
+	border-right:0;
+}
+@media all and (max-width:575px) {
+	.register .list-group-item {
+		padding-left:1.0rem;
+		padding-right:1.0rem;
+	}
+}

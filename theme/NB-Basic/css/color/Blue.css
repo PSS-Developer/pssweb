@@ -1,0 +1,5 @@
+@charset "utf-8";
+
+hr.hr::after {
+	background-color: #007bff !important;
+}

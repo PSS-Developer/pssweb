@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+/* List Head */
+.list-head, 
+.list-head th { 
+	font-weight:bold; 
+	border:0px; 
+	padding:0px !important; 
+	margin:0px !important; 
+	text-align:center; 
+	clear:both;
+	color:#333; 
+	height:43px; 
+	line-height:43px; 
+	background: url('./img/basic-red.gif') repeat-x !important; 
+}
+.list-head a { 
+	text-decoration:none; color:#333; 
+}
+.list-head a:hover, 
+.list-head a:focus, 
+.list-head a:active { 
+	color:#000; 
+}

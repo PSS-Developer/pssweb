@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+/********************************************************
+■ Side Menu : 사이드 메뉴
+********************************************************/
+#nt_side_menu ul.off { display:none; }
+#nt_side_menu li { padding:0; margin:0; position:relative; }
+#nt_side_menu a { display:block; padding:0.6rem 1.0rem;	padding-right:2.5rem; border-top:1px solid #eee; overflow:hidden; }
+#nt_side_menu .tree-toggle { position:absolute;  z-index:1; top:0; right:0; width:2.5rem; padding:0.6rem 0; margin-top:0.15rem; text-align:center; cursor:pointer; color:#aaa; }
+#nt_side_menu .me-ul { background:#fff; }
+#nt_side_menu .me-ul1 {	background:#fafafa; }
+#nt_side_menu .me-ul2 { }
+#nt_side_menu .me-li.active .me-a,
+#nt_side_menu .me-li1.active .me-a1,
+#nt_side_menu .me-li2.active .me-a2 { color:#000; font-weight:bold; }
+#nt_side_menu .me-line1 .me-a1 { background:#eee; font-weight:bold; }
+#nt_side_menu .me-line2 .me-a2 { background:#eee; font-weight:bold; }
+@media all and (max-width:575px) {
+	.responsive #nt_side_menu .me-ul.border { border-left:0 !important; border-right:0 !important; }
+}

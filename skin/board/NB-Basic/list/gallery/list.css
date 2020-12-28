@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+/* 모바일 목록 */
+@media all and (max-width:767px) {
+	.responsive #bo_list .float-left.float-md-none {
+		margin-right:0.75rem;
+	}
+	.responsive #bo_list .na-title {
+		margin-bottom:0.14rem;
+	}
+}
+
+/* gallery */
+#bo_gallery .chk-box {
+	position:absolute;
+	bottom:5px;
+	right:10px;
+	z-index:2;
+}
+#bo_gallery .wr-now {
+	position:absolute;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	background:rgba(0,0,0,0.75);
+	z-index:1;
+}

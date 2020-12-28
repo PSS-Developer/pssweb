@@ -1,0 +1,182 @@
+@charset "utf-8";
+
+/* 게시판 읽기 */
+#bo_v_title {
+	font-size:23px;
+	font-weight:bold;
+	line-height:1.4;
+	letter-spacing:-1px;
+}
+#bo_v_con {
+	min-height:200px; 
+	word-break:break-all;
+	overflow:hidden
+}
+@media all and (max-width:575px) {
+	.responsive #bo_v_title {
+		font-size:20px;
+		line-height:1.5;
+	}
+	.responsive #bo_v_con { 
+		min-height:140px; 
+	}
+}
+
+#bo_v_con img {
+	max-width:100%;
+	height:auto
+}
+#bo_v_img {
+	width:100%;
+	text-align:center;
+	overflow:hidden;
+	zoom:1;
+}
+#bo_v_img:after {
+	display:block;
+	visibility:hidden;
+	clear:both;
+	content:"";
+}
+#bo_v_img a.view_image {
+	display:block;
+}
+#bo_v_img img {
+	margin-bottom:1.0rem;
+}
+
+/* 게시판 읽기 : SNS 공유 */
+#bo_v_sns_icon { 
+	margin:-5px auto; 
+}
+#bo_v_sns_icon img { 
+	width:40px; 
+	border-radius:50%; 
+	margin:5px;
+}
+
+/* 게시판 댓글 : 내용 */
+.cmt-reply {
+	top:0;
+	left:-16px;
+}
+.by-writer { 
+	background:#fbefef !important;
+	border-top:1px solid #f6cece !important;
+}
+.cmt-content {
+	word-break:break-all;
+	overflow:hidden
+}
+.cmt-content img {
+	max-width:100%;
+	height:auto
+}
+
+/* 게시판 댓글 : 대댓글, 수정, 삭제 */
+.cmt-btn ul { 
+	list-style: none; 
+	margin: 0; 
+}
+.cmt-btn ul > li { 
+	float: left; 
+	font-size:12px;
+	padding: 0 10px; 
+}
+.cmt-btn ul > li::before { 
+	float: left; 
+	color:#ccc; 
+	content: "|"; 
+	margin-left:-12px;
+}
+.cmt-btn ul > li:last-child { 
+	padding-right:0;
+}
+.cmt-btn ul > li:first-child::before, 
+.cmt-btn ul > li.no-bar::before { 
+	content: ""; 
+	margin-left:0; 
+}
+.cmt-btn ul > li > a { 
+	float:left;
+	color:#888;
+	white-space:nowrap;	
+}
+
+/* 게시판 댓글 : 쓰기폼 */
+#fviewcomment #wr_content { 
+	resize:none; 
+}
+@media all and (max-width:575px) {
+	.responsive .cmt-box {
+		border-right:0 !important;
+	}
+	.responsive #bo_vc_w .cmt-box {
+		border-left:0 !important;
+		border-radius:0 !important;
+	}
+	.responsive #bo_vc_login {
+		border-left:0 !important;
+		border-right:0 !important;
+		border-radius:0 !important;
+	}
+}
+
+/* 게시판 댓글 : SNS 등록 */
+#bo_vc_opt ol {	
+	margin:0;
+	padding:0;
+	list-style:none;
+	zoom:1; 
+	background:#ccc;
+	border-radius:3px;
+}
+#bo_vc_opt ol:after { 
+	display:block;
+	visibility:hidden;
+	clear:both;
+	content:""; 
+}
+#bo_vc_opt ol li { 
+	float:left;
+	margin:0; 
+}
+#bo_vc_send_sns ul { 
+	margin:0;
+	padding:0;
+	list-style:none;
+	zoom:1; 
+}
+#bo_vc_send_sns ul:after { 
+	display:block;
+	visibility:hidden;
+	clear:both;
+	content:""; 
+}
+#bo_vc_send_sns ul li {	
+	float:left;
+	margin:0 1.0rem 0 0;
+}
+#bo_vc_send_sns input {	
+	margin:0 0 0 0.5rem;
+}
+
+/* 게시판 쓰기 */
+#bo_w .list-group-item {
+	padding-left:0;
+	padding-right:0;
+	border-left:0;
+	border-right:0;
+}
+#bo_w #wr_content { 
+	margin-bottom:1.0rem !important;
+}
+@media all and (max-width:575px) {
+	#bo_w .list-group-item {
+		padding-left:1.0rem;
+		padding-right:1.0rem;
+	}
+	.responsive #bo_w #wr_content {
+		max-height:160px !important;
+	}
+}

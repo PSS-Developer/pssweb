@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+/* 인기검색어 */
+.basic-keyword {
+	position:relative; 
+	margin-top:2px;
+	overflow:hidden;
+}
+.basic-keyword li a {
+	color:#555;
+}
+.basic-keyword .pp-last {
+	width:2.0rem;
+}
+.basic-keyword .pp-next,
+.basic-keyword .pp-prev {
+	display:block;
+	background:#fff;
+	width:1.5rem;
+	height:1.5rem;
+	line-height:1.4rem;
+	text-align:center;
+	border:1px solid #ddd;
+	color:#888;
+}
+.basic-keyword .pp-next {
+	border-left:0;
+}

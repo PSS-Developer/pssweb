@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+#faq_wrap img { 
+	max-width:100%;
+}
+
+#faq_wrap .faq-toggle.text-primary { 
+	font-weight:bold;
+}
+
+#faq_wrap .faq-toggle.text-primary .fa-question-circle:before { 
+	content:"\f06a";
+}
+
+#faq_wrap .faq-toggle.text-primary .fa-chevron-down:before { 
+	content:"\f077";
+}
