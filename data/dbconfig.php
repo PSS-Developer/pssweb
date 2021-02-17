@@ -1,8 +1,8 @@
 <?php
 if (!defined('_GNUBOARD_')) exit;
-define('G5_MYSQL_HOST', 'db');
-define('G5_MYSQL_USER', 'dbuser');
-define('G5_MYSQL_PASSWORD', 'dbpassword');
+define('G5_MYSQL_HOST', 'localhost');
+define('G5_MYSQL_USER', 'root');
+define('G5_MYSQL_PASSWORD', 'rootdbpassword');
 define('G5_MYSQL_DB', 'gnuboard');
 define('G5_MYSQL_SET_MODE', true);
 
