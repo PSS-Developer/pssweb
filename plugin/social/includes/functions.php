@@ -908,6 +908,7 @@ function social_get_provider_service_name($provider='', $all=''){
         'google'    =>  '구글',
         'twitter'  =>  '트위터',
         'payco'  =>  '페이코',
+        'github'  =>  '깃허브',
         );
 
     if( $all ){

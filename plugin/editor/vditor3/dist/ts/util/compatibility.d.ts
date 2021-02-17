@@ -1,0 +1,14 @@
+export declare const isKoreanAlphabet: (char: string) => boolean;
+export declare const isMac: () => boolean;
+export declare const isIphone: () => boolean;
+export declare const isSafariOnly: () => boolean;
+export declare const isChromeIphone: () => boolean;
+export declare const isFirefoxIphone: () => boolean;
+export declare const isAndroid: () => boolean;
+export declare const isChrome: () => boolean;
+export declare const isFirefox: () => boolean;
+export declare const isSafari: () => boolean;
+export declare const accessLocalStorage: () => boolean;
+export declare const getEventName: () => "click" | "touchstart";
+export declare const isCtrl: (event: KeyboardEvent) => boolean;
+export declare const updateHotkeyTip: (hotkey: string) => string;

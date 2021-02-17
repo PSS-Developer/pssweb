@@ -81,7 +81,7 @@ h1, h2, h3, h4, h5, h6, .en { font-family:"Roboto", sans-serif; }
 #nt_menu .sub-slide { display:none; visibility:visible; }
 #nt_menu .sub-icon::after { font-family: "FontAwesome"; float: right; position: relative; content: "\f105"; }
 #nt_menu .me-icon {	width:4.0rem; text-align:center; }
-#nt_menu .me-a { display:block; position:relative; text-align:center; font-weight:bold; color:#fff; }
+#nt_menu .me-a { display:block; position:relative; text-align:center; font-weight:bold !important; color:#fff; }
 #nt_menu .me-li.on .me-a,
 #nt_menu .me-li:hover .me-a { color:#fff; background:rgba(0,0,0,0.2) !important; }
 #nt_menu .sub-2div { left:100%; top:0; position:absolute; z-index:22; background: #fff; box-shadow: 0 6px 12px rgba(0, 0, 0, .175); -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175); } 

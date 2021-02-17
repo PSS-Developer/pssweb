@@ -20,10 +20,10 @@
       <div class="col-md-6">
         <ul class="nav nav-footer justify-content-end">
           <!-- <li class="nav-item">
-            <a href="about.php" class="nav-link" target="_blank">About Us</a>
+            <a href="/about.php" class="nav-link" target="_blank">About Us</a>
           </li> -->
           <li class="nav-item">
-            <a href="LICENSE.php" class="nav-link" target="_blank">License</a>
+            <a href="/LICENSE.php" class="nav-link" target="_blank">License</a>
           </li>
         </ul>
       </div>

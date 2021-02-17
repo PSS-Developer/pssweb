@@ -184,9 +184,16 @@ $is_post_title = (isset($is_post_title) && $is_post_title) ? true : false;
 				}
 			?>
 
-			<div class="view-content">
+<!--			<div class="view-content">
 				<?php echo get_view_thumbnail(na_view($view)); // 글내용 출력 ?>
 			</div>
+-->
+
+<!-- S: 마크다운 설정 -->
+			<div class="view-content">
+				<textarea id="markdownText" class="preview" style="display:none;"><?php echo get_view_thumbnail($view['content']);?></textarea>
+			</div>
+<!-- E: 마크다운 설정 -->
 
 			<?php
 				// 하단 이미지 출력
@@ -436,6 +443,22 @@ $is_post_title = (isset($is_post_title) && $is_post_title) ? true : false;
 	<!-- } 게시물 하단 버튼 끝 -->
 </article>
 <!-- } 게시판 읽기 끝 -->
+ 
+<script>
+Vditor.preview(document.getElementById('bo_v_con'),
+    document.getElementById('markdownText').textContent, {
+        markdown: {
+            toc: true,
+        },
+        lang: 'ko_KR',
+        hljs: {
+            style: 'native',
+        },
+        className: 'preview vditor-reset',
+        customEmoji: emojiOptions,
+    })
+</script>
+
 
 <script>
 function board_move(href) {

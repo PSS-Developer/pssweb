@@ -120,6 +120,10 @@ var g5_cookie_domain = "<?php echo G5_COOKIE_DOMAIN ?>";
 <script src="<?php echo NA_URL ?>/js/nariya.js?ver=<?php echo G5_JS_VER; ?>"></script>
 <script src="<?php echo G5_THEME_URL;?>/js/theme.js"></script>
 <?php
+add_stylesheet('<link rel="stylesheet" href="'.G5_EDITOR_URL.'/vditor3/dist/index.css">', 0);
+add_javascript('<script src="'.G5_EDITOR_URL.'/vditor3/dist/index.min.js"></script>', 0);
+add_javascript('<script src="'.G5_EDITOR_URL.'/vditor3/editorOptions.js"></script>', 0);
+
 if(G5_IS_MOBILE)
     add_javascript('<script src="'.G5_JS_URL.'/modernizr.custom.70111.js"></script>', 1); // overflow scroll 감지
 

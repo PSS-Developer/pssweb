@@ -54,6 +54,7 @@
 .sns-wrap-over .sns-twitter {background:url('./img/sns_twitter_s.png') no-repeat}
 .sns-wrap-over .sns-payco {background:url('./img/sns_payco_s.png') no-repeat}
 .sns-wrap-over .sns-kakao {background:url('./img/sns_kakao_s.png') no-repeat}
+.sns-wrap-over .sns-github {background:url('./img/sns_github_s.png') no-repeat}
 .reg-form .sns-icon-not {border-color:#8b8b8b}
 
 .social-login-loading {width:100%;height:auto;text-align:center}
@@ -76,8 +77,10 @@
 #sns_login .sns-google .ico {position:absolute;top:3px;left:3px;width:33px;height:33px;background:url('./img/sns_gp_s.png') no-repeat center center;background-color:#fff;background-size:28px 28px!important;border-radius:2px}
 #sns_login .sns-twitter {background-color:#1ea1f2;background-position:5px 5px;border-bottom:1px solid #1e82c0}
 #sns_login .sns-payco {background-color:#df0b00;background-position:5px 5px;border-bottom:1px solid #9d0800}
+#sns_login .sns-github {background-color:#000;background-position:5px 5px;border-bottom:1px solid #000}
 #sns_login .txt {text-align:left;padding-left:10px;border-left:1px solid rgba(0,0,0,0.1);display:block;font-weight:bold}
 #sns_login .txt:hover {background:rgba(0,0,0,0.07)}
+#sns_login .sns-github .txt {border-left:1px solid #333}
 
 /*회원가입 */
 #sns_register {margin:0 0 10px;padding:0;text-align:center;border-radius:3px}
@@ -93,6 +96,7 @@
 #sns_register .sns-google .ico {background:url('./img/sns_gp_s.png') no-repeat;height:30px}
 #sns_register .sns-twitter {background-color:#1ea1f2;background-position:0 0}
 #sns_register .sns-payco {background-color:#df0b00;background-position:0 0}
+#sns_register .sns-github {background-color:#000000;background-position:0 0}
 #sns_register .txt {position:absolute;line-height:0;font-size:0;vertical-align:middle;overflow:hidden}
 
 /*기존 계정에 연결하기*/

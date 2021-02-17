@@ -56,6 +56,12 @@ add_stylesheet('<link rel="stylesheet" href="'.get_social_skin_url().'/style.css
             <span class="txt">페이코 로그인</span>
         </a>
         <?php }     //end if ?>
+        <?php if( social_service_check('github') ) {     //깃헙 로그인을 사용한다면 ?>
+        <a href="<?php echo $self_url;?>?provider=github&url=<?php echo $urlencode;?>" class="sns-icon social_link sns-github" title="깃헙">
+            <span class="ico"></span>
+            <span class="txt">깃헙 로그인</span>
+        </a>
+        <?php }     //end if ?>
 
         <?php if( G5_SOCIAL_USE_POPUP && !$social_pop_once ){
         $social_pop_once = true;

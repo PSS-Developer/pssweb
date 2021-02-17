@@ -166,7 +166,7 @@ $is_wing = ($tset['wing']) ? true : false;
 										</div>
 									</form>
 									<div class="header-keyword mt-2">
-										<?php echo na_widget('data-keyword', 'popular', 'q=아미나,나리야,플러그인,그누보드5.4,부트스트랩4,테마,스킨,위젯,애드온'); ?>
+										<?php echo na_widget('data-keyword', 'popular', 'q=아미나,나리야,플러그인,그누보드5.4,부트스트랩4,테마,스킨,위젯,애드온,PSS'); ?>
 									</div>
 								</div>		  
 							</div>
